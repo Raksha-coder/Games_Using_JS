@@ -1,0 +1,3 @@
+in this game during the define time, you have to click on anime .
+
+when you click on that anime, the score gets increase.

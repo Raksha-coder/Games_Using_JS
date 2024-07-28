@@ -1,0 +1,19 @@
+#grid{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.square{
+    width: 190px;
+    height: 198px;
+    border: 1px solid black;
+    
+}
+
+.mole{
+    background-image: url('./images/animal.jfif');
+    background-size: cover;
+}
