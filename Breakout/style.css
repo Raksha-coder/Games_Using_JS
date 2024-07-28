@@ -1,0 +1,78 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap"); 
+      
+body{
+    /* background-color: blueviolet; */
+    background-image: url("./Images/background.png");
+    font-family: "Metal Mania", cursive; 
+}
+
+h1{
+    font-size: 5rem;
+    background: 
+    linear-gradient(to right, 
+                #fcc133, 
+                #334efc); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    -webkit-text-stroke: 1px  black;
+    margin: 0;
+}
+
+.header{
+    color: white;
+    text-align: center;
+}
+
+.header div{
+    font-size: 3rem;
+}
+
+.gameOver{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.grid{
+    position: absolute;
+    border: 3px solid rgb(150, 0, 170);
+    width: 574px;
+    height: 300px;
+    margin-top: 50px;
+    left: 30%;
+    background-color: black;
+}
+
+.block{
+    position: absolute;
+    width: 130px;   /* 20px for spacing */
+    height: 20px;
+    background-color: chartreuse;
+}
+
+
+.movingBlock{
+    position: absolute;
+    width: 130px;   /* 20px for spacing */
+    height: 20px;
+    background-color: rgb(216, 20, 20);
+   
+}
+
+
+.ball{
+    position: absolute;
+    width: 20px;   /* 20px for spacing */
+    height: 20px;
+    background-color: rgb(159, 16, 224);
+    border-radius: 50%;
+}
+
+
+#btn{
+    width: 100px;
+    height: 20px;
+
+}

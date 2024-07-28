@@ -1,0 +1,46 @@
+UTF-8
+1.It is Unicode Transformation Format-8, if i want to add emojies in my js code then i will use this because standard ASCII 
+do not provide this.
+
+
+Inline element
+button is an inline element 
+
+
+
+Block level element 
+headings 
+div
+
+
+
+
+querySelectorAll
+it will select all button tag 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------
+I have a bad habit of not finishing what I have started . 
+
+
+it's been a while since i have work on js so instead on doing the boring way to learn js , this
+time i have revised js concepts by making a js game projects .
+it was fun though but there are still lots of concepts in js that gets introduce with every new Ecmascript 
+versions . 
+
+if you want to share any js tips , you can share it in the comment box .
+
+here is my learning from todays js games:

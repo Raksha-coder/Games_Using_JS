@@ -1,0 +1,70 @@
+1.self closing tags
+2.rel = define the relationship of html with that file , which we are adding.
+
+
+
+
+
+Let's dry run the array.sort(() => 0.5 - Math.random()) function to understand how it works in detail.
+
+Initial Array:
+Let's use the array [1, 2, 3, 4, 5].
+
+
+For each pair of elements in the array, the comparator function will be called.
+The comparator function calculates 0.5 - Math.random().
+
+
+Math.random() generates a random number between 0 (inclusive) and 1 (exclusive).
+Comparisons:
+Let's assume the following random numbers are generated in order:
+
+First call to Math.random(): 0.7
+Second call to Math.random(): 0.2
+Third call to Math.random(): 0.9
+Fourth call to Math.random(): 0.1
+Fifth call to Math.random(): 0.4
+Sixth call to Math.random(): 0.3
+Seventh call to Math.random(): 0.6
+Eighth call to Math.random(): 0.8
+Ninth call to Math.random(): 0.5
+Tenth call to Math.random(): 0.0
+Comparator Returns:
+Using these random values, the comparator function 0.5 - Math.random() will return:
+
+0.5 − 0.7 = − 0.2
+0.5−0.7=−0.2 (negative value)
+0.5 − 0.2 = 0.3
+0.5−0.2=0.3 (positive value)
+0.5 − 0.9 = − 0.4
+0.5−0.9=−0.4 (negative value)
+0.5 − 0.1 = 0.4
+0.5−0.1=0.4 (positive value)
+0.5 − 0.4 = 0.1
+0.5−0.4=0.1 (positive value)
+0.5 − 0.3 = 0.2
+0.5−0.3=0.2 (positive value)
+0.5 − 0.6 = − 0.1
+0.5−0.6=−0.1 (negative value)
+0.5 − 0.8= − 0.3
+0.5−0.8=−0.3 (negative value)
+0.5 − 0.5 = 0.0
+0.5−0.5=0.0 (zero value)
+0.5 − 0.0 = 0.5
+0.5−0.0=0.5 (positive value)
+
+
+Sorting Process:
+The sort method will use these values to determine the order of elements:
+
+Compare 1 and 2:  − 0.2 (1 stays before 2)
+Compare 2 and 3:  0.3 (2 comes after 3)
+Compare 3 and 4: −0.4 (3 stays before 4)
+Compare 4 and 5: 0.4 (4 comes after 5)
+The comparisons continue until the sort method decides the final order based on these random comparisons.
+
+
+Result:
+The final array order will be somewhat randomized. Here is a possible outcome based on the assumed random values:
+
+[1, 3, 5, 2, 4]
